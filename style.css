@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family:cursive;
+    color: #3C373B;
+}
+body{
+    margin: 0;
+    width:100%;
+    background-color:white
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color:#eee;
+    min-height: 600px;
+}
+.container header{
+    width:100%;
+    height: 100px;
+    background-color:WHITE;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container header .logo{
+    width:25%;
+    height:60px;
+    background-color: #eee;
+    
+
+}
+.container header nav{
+    width: 60%;
+    height: 60px;
+    background-color:WHITE;
+
+}
+.container header nav  li{
+    display: inline-flex;
+    border: 1PX solid rgb(39, 201, 39);
+    justify-content: space-evenly ;
+background-color:rgb(254, 113, 61);
+color: white;
+padding: 7PX;
+border: 2PX;
+}
+.container header nav li:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.container .banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-color: white;
+    justify-content: center;
+    background-image: url("img/VIEW3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.container .banner .hero{
+    width: 50%;
+    height: 200px;
+    background-color:rgb(234, 53, 53);
+    border: 2px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+}
+.container .main{
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.container .main .main-content{
+    width: 70%;
+    min-height: 100%;
+    background-color: WHITE;
+}
+.container .main aside{
+    width: 30%;
+    min-height: 100%;
+    background-color:rgb(234 53 53 );
+}
+.container .main aside div{
+    display: flex;
+    justify-content:space-between;
+    margin:5px;
+}
+ 
+
+.container .footer-widget{
+display: flex;
+width: 100%;
+min-height: 450px;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+}
+.container .footer-widget .widget{
+    width: 30%;
+    background-color: #203951;
+    height: 200px;
+}
+img{
+    width:100%;
+    height: 100%;
+
+}
+figcaption{
+    color: orange;
+    background-color: black;
+}
