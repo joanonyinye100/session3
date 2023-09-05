@@ -43,6 +43,7 @@ background-color:rgb(252, 84, 23);
 color: white;
 padding: 7PX;
 border: 2PX;
+background-image: url(img/joab.jpg);
 }
 .container header nav li:hover{
     text-decoration: underline;
@@ -70,7 +71,7 @@ border: 2PX;
     border-radius: 20px;
     text-align: center;
     color: black;
-    background-image:url(img/plain3.jpg);
+    background-image:url(img/joab.jpg)
 }
 .container .main{
     width: 100%;
@@ -90,7 +91,7 @@ border: 2PX;
     width: 30%;
     min-height: 100%;
     background-color:rgb(252 84 23);
-    background-image:url(img/plain\ 5.jpg);
+    background-image: url(img/joab.jpg);
 }
 .container .main aside div{
     display: flex;
