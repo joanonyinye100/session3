@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    font-family:cursive;
+
     
 }
 body{
@@ -62,6 +62,7 @@ background-image: url(img/joab.jpg);
     background-size:cover;
     opacity: 100%;
     
+    
 }
 .container .banner .hero{
     width: 50%;
@@ -71,7 +72,9 @@ background-image: url(img/joab.jpg);
     border-radius: 20px;
     text-align: center;
     color: black;
-    background-image:url(img/joab.jpg)
+    background-image:url(img/joab.jpg);
+    color: white;
+
 }
 .container .main{
     width: 100%;
@@ -85,13 +88,15 @@ background-image: url(img/joab.jpg);
     width: 70%;
     min-height: 100%;
     background-color: WHITE;
-    color: #3C373B;
+    text-align: justify;
+    margin:7px;
 }
 .container .main aside{
     width: 30%;
     min-height: 100%;
     background-color:rgb(252 84 23);
     background-image: url(img/joab.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container .main aside div{
     display: flex;
